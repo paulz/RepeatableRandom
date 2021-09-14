@@ -1,5 +1,5 @@
 framework module RepeatableRandom {
-  umbrella header "RepeatableRandom-macOS-umbrella.h"
+  umbrella header "RepeatableRandom-umbrella.h"
 
   export *
   module * { export * }

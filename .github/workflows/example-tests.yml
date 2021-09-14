@@ -37,7 +37,7 @@ jobs:
       uses: sersoft-gmbh/xcodebuild-action@v1
       with:
         workspace: Example/RepeatableRandom.xcworkspace
-        scheme: ${{ matrix.os }}_Tests
+        scheme: Tests
         destination: ${{ steps.destination.outputs.destination }}
         result-bundle-path: test-results/${{ matrix.os }}
         build-settings: -test-timeouts-enabled YES
