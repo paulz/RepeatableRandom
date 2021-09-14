@@ -1,11 +1,11 @@
 use_frameworks!
 
-target 'macOS-Tests' do
+target 'macOS_Tests' do
   platform :macos, 10.11
   pod 'RepeatableRandom', :path => '../'
 end
 
-target 'iOS-Tests' do
+target 'iOS_Tests' do
   platform :ios, 9
   pod 'RepeatableRandom', :path => '../'
 end
