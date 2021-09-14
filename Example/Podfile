@@ -1,11 +1,6 @@
 use_frameworks!
+platform :macos, 10.11
 
-target 'RepeatableRandom_Example' do
+target 'macOS-Tests' do
   pod 'RepeatableRandom', :path => '../'
-
-  target 'RepeatableRandom_Tests' do
-    inherit! :search_paths
-
-    
-  end
 end

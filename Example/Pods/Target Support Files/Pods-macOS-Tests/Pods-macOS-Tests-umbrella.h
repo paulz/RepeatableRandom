@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_RepeatableRandom_TestsVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_RepeatableRandom_TestsVersionString[];
+FOUNDATION_EXPORT double Pods_macOS_TestsVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_macOS_TestsVersionString[];
 

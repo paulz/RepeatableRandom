@@ -7,61 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		48BE90B9A57426A5D42CEDF6 /* Pods_RepeatableRandom_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA5B7A9FB26015E644A3E37F /* Pods_RepeatableRandom_Tests.framework */; };
-		74B9D161AF7A168FF8A23D3F /* Pods_RepeatableRandom_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7A33802EE5B428ED65AEDED /* Pods_RepeatableRandom_Example.framework */; };
-		ED83F67C20348A760038D96B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED83F67B20348A760038D96B /* AppDelegate.swift */; };
-		ED83F67E20348A760038D96B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED83F67D20348A760038D96B /* ViewController.swift */; };
-		ED83F68020348A760038D96B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED83F67F20348A760038D96B /* Assets.xcassets */; };
-		ED83F68320348A760038D96B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED83F68120348A760038D96B /* Main.storyboard */; };
+		D80147D00180E96861C58065 /* Pods_macOS_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9CFE2AD3F1717E523E92292 /* Pods_macOS_Tests.framework */; };
 		ED83F68F20348A760038D96B /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED83F68E20348A760038D96B /* Tests.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		ED83F68B20348A760038D96B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = ED83F67020348A760038D96B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = ED83F67720348A760038D96B;
-			remoteInfo = RepeatableRandom;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		82C534558BF858B23DDF62F0 /* RepeatableRandom.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = RepeatableRandom.podspec; path = ../RepeatableRandom.podspec; sourceTree = "<group>"; };
-		850C17E431C87C287D22CC6E /* Pods-RepeatableRandom_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RepeatableRandom_Tests.release.xcconfig"; path = "Target Support Files/Pods-RepeatableRandom_Tests/Pods-RepeatableRandom_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		94E1A802E71EB8A9A1FE399C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		AF7710F57A142858204B04BD /* Pods-RepeatableRandom_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RepeatableRandom_Example.release.xcconfig"; path = "Target Support Files/Pods-RepeatableRandom_Example/Pods-RepeatableRandom_Example.release.xcconfig"; sourceTree = "<group>"; };
+		82C534558BF858B23DDF62F0 /* RepeatableRandom.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RepeatableRandom.podspec; path = ../RepeatableRandom.podspec; sourceTree = "<group>"; };
+		94E1A802E71EB8A9A1FE399C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		ABF7CBFB0B93A77B2DBA0D4F /* Pods-macOS-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-macOS-Tests.release.xcconfig"; path = "Target Support Files/Pods-macOS-Tests/Pods-macOS-Tests.release.xcconfig"; sourceTree = "<group>"; };
+		BC50C934D3C4730C41A08F52 /* Pods-macOS-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-macOS-Tests.debug.xcconfig"; path = "Target Support Files/Pods-macOS-Tests/Pods-macOS-Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C7A33802EE5B428ED65AEDED /* Pods_RepeatableRandom_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RepeatableRandom_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		ED612DB93F0AF65CB91C8F33 /* Pods-RepeatableRandom_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RepeatableRandom_Tests.debug.xcconfig"; path = "Target Support Files/Pods-RepeatableRandom_Tests/Pods-RepeatableRandom_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		ED83F67820348A760038D96B /* RepeatableRandom_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RepeatableRandom_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		ED83F67B20348A760038D96B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ED83F67D20348A760038D96B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		ED83F67F20348A760038D96B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		ED83F68220348A760038D96B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		ED83F68420348A760038D96B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ED83F68520348A760038D96B /* RepeatableRandom.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RepeatableRandom.entitlements; sourceTree = "<group>"; };
-		ED83F68A20348A760038D96B /* RepeatableRandom_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RepeatableRandom_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9CFE2AD3F1717E523E92292 /* Pods_macOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_macOS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED83F68A20348A760038D96B /* macOS-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "macOS-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED83F68E20348A760038D96B /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		ED83F69020348A760038D96B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F9EE3A4E1BDB1A84BE091747 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		FA5B7A9FB26015E644A3E37F /* Pods_RepeatableRandom_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RepeatableRandom_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC8DF2C2069BCEF149C200F0 /* Pods-RepeatableRandom_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RepeatableRandom_Example.debug.xcconfig"; path = "Target Support Files/Pods-RepeatableRandom_Example/Pods-RepeatableRandom_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F9EE3A4E1BDB1A84BE091747 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		ED83F67520348A760038D96B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				74B9D161AF7A168FF8A23D3F /* Pods_RepeatableRandom_Example.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		ED83F68720348A760038D96B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48BE90B9A57426A5D42CEDF6 /* Pods_RepeatableRandom_Tests.framework in Frameworks */,
+				D80147D00180E96861C58065 /* Pods_macOS_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,7 +40,7 @@
 			isa = PBXGroup;
 			children = (
 				C7A33802EE5B428ED65AEDED /* Pods_RepeatableRandom_Example.framework */,
-				FA5B7A9FB26015E644A3E37F /* Pods_RepeatableRandom_Tests.framework */,
+				E9CFE2AD3F1717E523E92292 /* Pods_macOS_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -80,12 +48,9 @@
 		C923904AFF203B95B68ADA3B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				FC8DF2C2069BCEF149C200F0 /* Pods-RepeatableRandom_Example.debug.xcconfig */,
-				AF7710F57A142858204B04BD /* Pods-RepeatableRandom_Example.release.xcconfig */,
-				ED612DB93F0AF65CB91C8F33 /* Pods-RepeatableRandom_Tests.debug.xcconfig */,
-				850C17E431C87C287D22CC6E /* Pods-RepeatableRandom_Tests.release.xcconfig */,
+				BC50C934D3C4730C41A08F52 /* Pods-macOS-Tests.debug.xcconfig */,
+				ABF7CBFB0B93A77B2DBA0D4F /* Pods-macOS-Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -93,7 +58,6 @@
 			isa = PBXGroup;
 			children = (
 				ED83F69A20348B650038D96B /* Podspec Metadata */,
-				ED83F67A20348A760038D96B /* RepeatableRandom */,
 				ED83F68D20348A760038D96B /* Tests */,
 				ED83F67920348A760038D96B /* Products */,
 				C923904AFF203B95B68ADA3B /* Pods */,
@@ -104,23 +68,9 @@
 		ED83F67920348A760038D96B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ED83F67820348A760038D96B /* RepeatableRandom_Example.app */,
-				ED83F68A20348A760038D96B /* RepeatableRandom_Tests.xctest */,
+				ED83F68A20348A760038D96B /* macOS-Tests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		ED83F67A20348A760038D96B /* RepeatableRandom */ = {
-			isa = PBXGroup;
-			children = (
-				ED83F67B20348A760038D96B /* AppDelegate.swift */,
-				ED83F67D20348A760038D96B /* ViewController.swift */,
-				ED83F67F20348A760038D96B /* Assets.xcassets */,
-				ED83F68120348A760038D96B /* Main.storyboard */,
-				ED83F68420348A760038D96B /* Info.plist */,
-				ED83F68520348A760038D96B /* RepeatableRandom.entitlements */,
-			);
-			path = RepeatableRandom;
 			sourceTree = "<group>";
 		};
 		ED83F68D20348A760038D96B /* Tests */ = {
@@ -145,42 +95,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		ED83F67720348A760038D96B /* RepeatableRandom_Example */ = {
+		ED83F68920348A760038D96B /* macOS-Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ED83F69320348A760038D96B /* Build configuration list for PBXNativeTarget "RepeatableRandom_Example" */;
-			buildPhases = (
-				83E313EBDB7F754ABCD13773 /* [CP] Check Pods Manifest.lock */,
-				ED83F67420348A760038D96B /* Sources */,
-				ED83F67520348A760038D96B /* Frameworks */,
-				ED83F67620348A760038D96B /* Resources */,
-				F3505D89E0C5C4CCB8FC6241 /* [CP] Embed Pods Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = RepeatableRandom_Example;
-			productName = RepeatableRandom;
-			productReference = ED83F67820348A760038D96B /* RepeatableRandom_Example.app */;
-			productType = "com.apple.product-type.application";
-		};
-		ED83F68920348A760038D96B /* RepeatableRandom_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = ED83F69620348A760038D96B /* Build configuration list for PBXNativeTarget "RepeatableRandom_Tests" */;
+			buildConfigurationList = ED83F69620348A760038D96B /* Build configuration list for PBXNativeTarget "macOS-Tests" */;
 			buildPhases = (
 				E432E67343EDC487E3348EFB /* [CP] Check Pods Manifest.lock */,
 				ED83F68620348A760038D96B /* Sources */,
 				ED83F68720348A760038D96B /* Frameworks */,
 				ED83F68820348A760038D96B /* Resources */,
+				6DEB10C5CA6D83E927A56115 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				ED83F68C20348A760038D96B /* PBXTargetDependency */,
 			);
-			name = RepeatableRandom_Tests;
+			name = "macOS-Tests";
 			productName = RepeatableRandomTests;
-			productReference = ED83F68A20348A760038D96B /* RepeatableRandom_Tests.xctest */;
+			productReference = ED83F68A20348A760038D96B /* macOS-Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -193,10 +124,6 @@
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					ED83F67720348A760038D96B = {
-						CreatedOnToolsVersion = 9.0;
-						ProvisioningStyle = Automatic;
-					};
 					ED83F68920348A760038D96B = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
@@ -217,22 +144,12 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ED83F67720348A760038D96B /* RepeatableRandom_Example */,
-				ED83F68920348A760038D96B /* RepeatableRandom_Tests */,
+				ED83F68920348A760038D96B /* macOS-Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		ED83F67620348A760038D96B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				ED83F68020348A760038D96B /* Assets.xcassets in Resources */,
-				ED83F68320348A760038D96B /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		ED83F68820348A760038D96B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -243,26 +160,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		83E313EBDB7F754ABCD13773 /* [CP] Check Pods Manifest.lock */ = {
+		6DEB10C5CA6D83E927A56115 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
+				"${PODS_ROOT}/Target Support Files/Pods-macOS-Tests/Pods-macOS-Tests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RepeatableRandom/RepeatableRandom.framework",
 			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-RepeatableRandom_Example-checkManifestLockResult.txt",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RepeatableRandom.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-macOS-Tests/Pods-macOS-Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E432E67343EDC487E3348EFB /* [CP] Check Pods Manifest.lock */ = {
@@ -280,43 +193,16 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-RepeatableRandom_Tests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-macOS-Tests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F3505D89E0C5C4CCB8FC6241 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RepeatableRandom_Example/Pods-RepeatableRandom_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/RepeatableRandom/RepeatableRandom.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RepeatableRandom.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RepeatableRandom_Example/Pods-RepeatableRandom_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		ED83F67420348A760038D96B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				ED83F67E20348A760038D96B /* ViewController.swift in Sources */,
-				ED83F67C20348A760038D96B /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		ED83F68620348A760038D96B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -326,25 +212,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		ED83F68C20348A760038D96B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = ED83F67720348A760038D96B /* RepeatableRandom_Example */;
-			targetProxy = ED83F68B20348A760038D96B /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		ED83F68120348A760038D96B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ED83F68220348A760038D96B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		ED83F69120348A760038D96B /* Debug */ = {
@@ -398,7 +265,6 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -448,48 +314,14 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = macosx;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-			};
-			name = Release;
-		};
-		ED83F69420348A760038D96B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FC8DF2C2069BCEF149C200F0 /* Pods-RepeatableRandom_Example.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = RepeatableRandom/RepeatableRandom.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = RepeatableRandom/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.demo.RepeatableRandom;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-			};
-			name = Debug;
-		};
-		ED83F69520348A760038D96B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AF7710F57A142858204B04BD /* Pods-RepeatableRandom_Example.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = RepeatableRandom/RepeatableRandom.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = RepeatableRandom/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.demo.RepeatableRandom;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
 		ED83F69720348A760038D96B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ED612DB93F0AF65CB91C8F33 /* Pods-RepeatableRandom_Tests.debug.xcconfig */;
+			baseConfigurationReference = BC50C934D3C4730C41A08F52 /* Pods-macOS-Tests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -497,6 +329,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.RepeatableRandom-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 				SWIFT_VERSION = 4.0;
 				TEST_HOST = "";
 			};
@@ -504,9 +337,8 @@
 		};
 		ED83F69820348A760038D96B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 850C17E431C87C287D22CC6E /* Pods-RepeatableRandom_Tests.release.xcconfig */;
+			baseConfigurationReference = ABF7CBFB0B93A77B2DBA0D4F /* Pods-macOS-Tests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -514,6 +346,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.RepeatableRandom-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 				SWIFT_VERSION = 4.0;
 				TEST_HOST = "";
 			};
@@ -531,16 +364,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ED83F69320348A760038D96B /* Build configuration list for PBXNativeTarget "RepeatableRandom_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				ED83F69420348A760038D96B /* Debug */,
-				ED83F69520348A760038D96B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		ED83F69620348A760038D96B /* Build configuration list for PBXNativeTarget "RepeatableRandom_Tests" */ = {
+		ED83F69620348A760038D96B /* Build configuration list for PBXNativeTarget "macOS-Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ED83F69720348A760038D96B /* Debug */,

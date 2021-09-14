@@ -1,6 +1,0 @@
-framework module Pods_RepeatableRandom_Example {
-  umbrella header "Pods-RepeatableRandom_Example-umbrella.h"
-
-  export *
-  module * { export * }
-}
