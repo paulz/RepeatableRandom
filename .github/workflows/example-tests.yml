@@ -14,6 +14,10 @@ jobs:
       matrix:
         os: [macOS, iOS]
     steps:
+    - name: Setup Xcode version
+      uses: maxim-lobanov/setup-xcode@v1
+      with:
+        xcode-version: latest-stable
     - uses: actions/checkout@v2
     - name: ${{ matrix.os }} Tests
       uses: sersoft-gmbh/xcodebuild-action@v1
@@ -22,9 +26,9 @@ jobs:
         scheme: ${{ matrix.os }}_Tests
         result-bundle-path: test-results/${{ matrix.os }}
         build-settings: -test-timeouts-enabled YES
-    - name: Save crash reports created since test-results
+    - name: Save crash reports
       if: failure()
-      run: find ~/Library/Logs/DiagnosticReports/*.crash 
+      run: find ~/Library/Logs/DiagnosticReports/*.crash
         -exec cp {} ./test-results \; || true
     - name: Archive results # due to: https://github.com/actions/upload-artifact/issues/76
       if: always()
