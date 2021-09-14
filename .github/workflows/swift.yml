@@ -1,0 +1,36 @@
+name: Swift
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: macos-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: macOS Tests
+      uses: sersoft-gmbh/xcodebuild-action@v1
+      with:
+        workspace: Example/RepeatableRandom.xcworkspace
+        scheme: macOS_Tests
+        result-bundle-path: test-results/macos
+        build-settings: -test-timeouts-enabled YES
+    - name: iOS Tests
+      uses: sersoft-gmbh/xcodebuild-action@v1
+      with:
+        workspace: Example/RepeatableRandom.xcworkspace
+        scheme: iOS_Tests
+        result-bundle-path: test-results/ios
+        build-settings: -test-timeouts-enabled YES
+    - name: Archive results # due to: https://github.com/actions/upload-artifact/issues/76
+      if: always()
+      run: zip -FSry results.zip test-results || true
+    - name: Upload test results
+      if: always()
+      uses: actions/upload-artifact@v2
+      with:
+        name: test-results
+        path: results.zip
