@@ -22,6 +22,10 @@ jobs:
         scheme: ${{ matrix.os }}_Tests
         result-bundle-path: test-results/${{ matrix.os }}
         build-settings: -test-timeouts-enabled YES
+    - name: Save crash reports created since test-results
+      if: failure()
+      run: find ~/Library/Logs/DiagnosticReports/*.crash -newerBB ./test-results
+        -exec cp {} ./test-results \; || true
     - name: Archive results # due to: https://github.com/actions/upload-artifact/issues/76
       if: always()
       run: zip -FSry results.zip test-results || true
@@ -29,5 +33,5 @@ jobs:
       if: always()
       uses: actions/upload-artifact@v2
       with:
-        name: test-results
+        name: test-results-${{ matrix.os }}
         path: results.zip
