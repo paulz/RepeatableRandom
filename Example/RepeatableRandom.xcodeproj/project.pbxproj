@@ -23,6 +23,7 @@
 		4AF68ECF26F06B2E007E2379 /* iOS_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AF68ED826F06E3A007E2379 /* Principal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Principal.swift; sourceTree = "<group>"; };
 		4AF68EDB26F06EE3007E2379 /* VerifyTestOrderObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyTestOrderObserver.swift; sourceTree = "<group>"; };
+		4AF68EDE26F0BCFC007E2379 /* workflows */ = {isa = PBXFileReference; lastKnownFileType = folder; name = workflows; path = ../.github/workflows; sourceTree = "<group>"; };
 		51F4347CCECA8D109A694E01 /* Pods_iOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		82C534558BF858B23DDF62F0 /* RepeatableRandom.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = RepeatableRandom.podspec; path = ../RepeatableRandom.podspec; sourceTree = "<group>"; };
 		8E1D15EB45C01620FBFE9AEF /* Pods-iOS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_Tests.debug.xcconfig"; path = "Target Support Files/Pods-iOS_Tests/Pods-iOS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -80,6 +81,7 @@
 		ED83F66F20348A760038D96B = {
 			isa = PBXGroup;
 			children = (
+				4AF68EDE26F0BCFC007E2379 /* workflows */,
 				ED83F69A20348B650038D96B /* Podspec Metadata */,
 				ED83F68D20348A760038D96B /* Tests */,
 				ED83F67920348A760038D96B /* Products */,

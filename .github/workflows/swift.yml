@@ -1,4 +1,4 @@
-name: Swift
+name: Example Tests
 
 on:
   push:
@@ -9,21 +9,18 @@ on:
 jobs:
   build:
     runs-on: macos-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        scheme: [macOS_Tests, iOS_Tests]
     steps:
     - uses: actions/checkout@v2
     - name: macOS Tests
       uses: sersoft-gmbh/xcodebuild-action@v1
       with:
         workspace: Example/RepeatableRandom.xcworkspace
-        scheme: macOS_Tests
-        result-bundle-path: test-results/macos
-        build-settings: -test-timeouts-enabled YES
-    - name: iOS Tests
-      uses: sersoft-gmbh/xcodebuild-action@v1
-      with:
-        workspace: Example/RepeatableRandom.xcworkspace
-        scheme: iOS_Tests
-        result-bundle-path: test-results/ios
+        scheme: ${{ matrix.scheme }}
+        result-bundle-path: test-results/${{ matrix.scheme }}
         build-settings: -test-timeouts-enabled YES
     - name: Archive results # due to: https://github.com/actions/upload-artifact/issues/76
       if: always()
