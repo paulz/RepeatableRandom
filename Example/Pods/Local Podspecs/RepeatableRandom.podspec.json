@@ -18,7 +18,7 @@
   "social_media_url": "https://twitter.com/iospaulz",
   "platforms": {
     "osx": "10.11",
-    "ios": "9"
+    "ios": "12.0"
   },
   "source_files": "RepeatableRandom/Classes/**/*",
   "frameworks": "XCTest",
