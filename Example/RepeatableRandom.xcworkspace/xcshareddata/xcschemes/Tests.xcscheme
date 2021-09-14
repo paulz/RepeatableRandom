@@ -14,7 +14,7 @@
       <EnvironmentVariables>
          <EnvironmentVariable
             key = "seed"
-            value = "2031987378424853341"
+            value = "12330077710249634327"
             isEnabled = "YES">
          </EnvironmentVariable>
       </EnvironmentVariables>
@@ -24,8 +24,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4AF68ECE26F06B2E007E2379"
-               BuildableName = "iOS_Tests.xctest"
-               BlueprintName = "iOS_Tests"
+               BuildableName = "Tests.xctest"
+               BlueprintName = "Tests"
                ReferencedContainer = "container:RepeatableRandom.xcodeproj">
             </BuildableReference>
          </TestableReference>

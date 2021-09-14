@@ -9,9 +9,9 @@ class VerifyTestOrderObserver: NSObject, XCTestObservation {
                     [
                         "-[RandomSeed replayingSeed]",
                         "-[FirstTest testTwo]",
-                        "-[FirstTest testOne]",
-                        "-[ThirdTest testThird]",
                         "-[SecondTest testSecond]",
+                        "-[ThirdTest testThird]",
+                        "-[FirstTest testOne]",
                     ]
             )
         }
