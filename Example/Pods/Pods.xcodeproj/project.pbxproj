@@ -49,11 +49,11 @@
 		1954EE7EEB5B5A583AB5347527B71214 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		1AFA35615FBCB1B17A3D8217581EF5EC /* Pods-iOS-Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iOS-Tests-dummy.m"; sourceTree = "<group>"; };
 		1B2E026DCE8007379385D407C52083B8 /* RepeatableRandom-macOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RepeatableRandom-macOS-umbrella.h"; path = "../RepeatableRandom-macOS/RepeatableRandom-macOS-umbrella.h"; sourceTree = "<group>"; };
-		1BE572EF0563DAA762FD4600D406F04F /* Pods-macOS-Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-macOS-Tests"; path = Pods_macOS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BE572EF0563DAA762FD4600D406F04F /* Pods_macOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_macOS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E1AE264BBD5DF64C69C6B6EFB3353B2 /* RepeatableRandom-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "RepeatableRandom-iOS.modulemap"; sourceTree = "<group>"; };
 		20BB2E3DD535E77BB0FD3B2674D4564B /* Pods-macOS-Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-macOS-Tests-dummy.m"; sourceTree = "<group>"; };
 		2D35E93215CB9374617F4CC7087D7A29 /* Pods-macOS-Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-macOS-Tests-umbrella.h"; sourceTree = "<group>"; };
-		36CF54BC2A3527EB392B8C0B58977E27 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		36CF54BC2A3527EB392B8C0B58977E27 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		37617DD1104766BBD6C9FD70AEFBF1C3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		376F5AD191CD883147A96E5DBAF5FA30 /* RepeatableRandom-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RepeatableRandom-iOS-umbrella.h"; sourceTree = "<group>"; };
 		3C583F0C24A7951064F0AAF12EF4E9A9 /* Pods-iOS-Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iOS-Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -67,13 +67,13 @@
 		6EEFE87E4F42CD1ADA6B1D468E48320B /* RepeatableRandom-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RepeatableRandom-iOS-dummy.m"; sourceTree = "<group>"; };
 		73EBF8BA7B5098F855DB227F19B78534 /* Pods-iOS-Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iOS-Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		78724FC86C1F93F4D706C42D2090627C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
-		7CB00DD71917A5988B377940AAB273AB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		7CB00DD71917A5988B377940AAB273AB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		8423524F1ADB96468A28F1325B21611D /* RepeatableRandom-macOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "RepeatableRandom-macOS.modulemap"; path = "../RepeatableRandom-macOS/RepeatableRandom-macOS.modulemap"; sourceTree = "<group>"; };
 		849B405396AE39B752F796353F5381C6 /* RepeatableRandom-macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "RepeatableRandom-macOS.release.xcconfig"; path = "../RepeatableRandom-macOS/RepeatableRandom-macOS.release.xcconfig"; sourceTree = "<group>"; };
-		8986DFC2CF89F43E1D93C4ED4A0E87DB /* RepeatableRandom-macOS */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "RepeatableRandom-macOS"; path = RepeatableRandom.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8986DFC2CF89F43E1D93C4ED4A0E87DB /* RepeatableRandom.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RepeatableRandom.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9496E965632874ACDA11353E889D10A3 /* Pods-iOS-Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-iOS-Tests.modulemap"; sourceTree = "<group>"; };
 		964C70FC9D6CE85FD7990A454AA42BB9 /* Pods-iOS-Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOS-Tests-frameworks.sh"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B7057D8FEDEE5A3E08AB5FD6061530A7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		B8F56FD5B32D0BB1724B2C3C452C0FA3 /* Pods-macOS-Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-macOS-Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		B96334497561F80476D2EB3F2A560CE4 /* Pods-macOS-Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-macOS-Tests-Info.plist"; sourceTree = "<group>"; };
@@ -82,7 +82,7 @@
 		C91EDBEFFD1B034429981D377632A7ED /* Pods-macOS-Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-macOS-Tests-frameworks.sh"; sourceTree = "<group>"; };
 		D6C00E02B3DA72FACD1ECD9EC0D90F2B /* Pods-macOS-Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-macOS-Tests.modulemap"; sourceTree = "<group>"; };
 		DA2C6CAF8D5A114BF805706E7B7653F1 /* RepeatableRandom-iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RepeatableRandom-iOS-Info.plist"; sourceTree = "<group>"; };
-		DC59718145B34B0F9AC598525935876B /* RepeatableRandom.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = RepeatableRandom.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DC59718145B34B0F9AC598525935876B /* RepeatableRandom.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = RepeatableRandom.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		DDA01BEE0A45517DBE6CB660FD9BDB21 /* Pods-macOS-Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-macOS-Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E1498BACB403AFD0805B4B97009E867F /* Pods-iOS-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOS-Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F94C70425D0A8BD0CB18B50CE977DE3D /* RepeatableRandom-macOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RepeatableRandom-macOS-prefix.pch"; path = "../RepeatableRandom-macOS/RepeatableRandom-macOS-prefix.pch"; sourceTree = "<group>"; };
@@ -246,9 +246,9 @@
 			isa = PBXGroup;
 			children = (
 				582D6170CF805880B0ECC17F54E2C4DC /* Pods-iOS-Tests */,
-				1BE572EF0563DAA762FD4600D406F04F /* Pods-macOS-Tests */,
+				1BE572EF0563DAA762FD4600D406F04F /* Pods_macOS_Tests.framework */,
 				044C9F60258B7832A2435A2BBEFF7B0D /* RepeatableRandom-iOS */,
-				8986DFC2CF89F43E1D93C4ED4A0E87DB /* RepeatableRandom-macOS */,
+				8986DFC2CF89F43E1D93C4ED4A0E87DB /* RepeatableRandom.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -325,7 +325,7 @@
 			);
 			name = "Pods-macOS-Tests";
 			productName = Pods_macOS_Tests;
-			productReference = 1BE572EF0563DAA762FD4600D406F04F /* Pods-macOS-Tests */;
+			productReference = 1BE572EF0563DAA762FD4600D406F04F /* Pods_macOS_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		320FBD6F9E55AC6723209C1FB6B76990 /* RepeatableRandom-iOS */ = {
@@ -361,7 +361,7 @@
 			);
 			name = "RepeatableRandom-macOS";
 			productName = RepeatableRandom;
-			productReference = 8986DFC2CF89F43E1D93C4ED4A0E87DB /* RepeatableRandom-macOS */;
+			productReference = 8986DFC2CF89F43E1D93C4ED4A0E87DB /* RepeatableRandom.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		F901B76FDF28CC5FECD5575D44CFC919 /* Pods-iOS-Tests */ = {
@@ -390,7 +390,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1240;
+				LastUpgradeCheck = 1250;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 8.0";
@@ -502,7 +502,6 @@
 			baseConfigurationReference = FAB611AFB6881E94452D8192FEEDAF08 /* Pods-macOS-Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -565,7 +564,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 04129107566F2D984C98BEAC2A3AAA39 /* RepeatableRandom-macOS.debug.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -598,7 +596,6 @@
 			baseConfigurationReference = FCA84DA59421D6A573282E0527F581A7 /* Pods-macOS-Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -782,8 +779,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -857,7 +853,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 849B405396AE39B752F796353F5381C6 /* RepeatableRandom-macOS.release.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";

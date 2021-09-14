@@ -17,8 +17,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "ED83F68920348A760038D96B"
-               BuildableName = "macOS-Tests.xctest"
-               BlueprintName = "macOS-Tests"
+               BuildableName = "macOS_Tests.xctest"
+               BlueprintName = "macOS_Tests"
                ReferencedContainer = "container:RepeatableRandom.xcodeproj">
             </BuildableReference>
          </TestableReference>
