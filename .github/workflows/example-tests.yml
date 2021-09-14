@@ -22,11 +22,23 @@ jobs:
       with:
         xcode-version: latest-stable
     - uses: actions/checkout@v2
+    - name: destination
+      id: destination
+      run: |
+        if [ $OS == 'iOS' ]
+        then
+            echo "::set-output name=destination::'platform=iOS Simulator,name=iPhone 8,OS=12.1'"
+        else
+            echo "::set-output name=destination::platform=macOS"
+        fi
+      env:
+        OS: ${{ matrix.os }}
     - name: ${{ matrix.os }} Tests
       uses: sersoft-gmbh/xcodebuild-action@v1
       with:
         workspace: Example/RepeatableRandom.xcworkspace
         scheme: ${{ matrix.os }}_Tests
+        destination: ${{ steps.destination.outputs.destination }}
         result-bundle-path: test-results/${{ matrix.os }}
         build-settings: -test-timeouts-enabled YES
     - name: Save crash reports
