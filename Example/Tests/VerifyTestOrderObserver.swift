@@ -8,8 +8,8 @@ class VerifyTestOrderObserver: NSObject, XCTestObservation {
                 testSuite.testNames ==
                     [
                         "-[RandomSeed replayingSeed]",
-                        "-[FirstTest testSecond]",
-                        "-[FirstTest testFirst]",
+                        "-[FirstTest testTwo]",
+                        "-[FirstTest testOne]",
                         "-[ThirdTest testThird]",
                         "-[SecondTest testSecond]",
                     ]

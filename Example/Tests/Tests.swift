@@ -1,10 +1,10 @@
 import XCTest
 
 class FirstTest: XCTestCase {
-    func testFirst() {
+    func testOne() {
         XCTAssertEqual(1, 1, "should pass")
     }
-    func testSecond() {
+    func testTwo() {
         XCTAssertEqual(2, 2, "should pass")
     }
 }
