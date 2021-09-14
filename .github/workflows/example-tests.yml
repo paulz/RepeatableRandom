@@ -27,7 +27,7 @@ jobs:
       run: |
         if [ $OS == 'iOS' ]
         then
-            echo "::set-output name=destination::\"platform=iOS Simulator,name=iPhone 8,OS=12.1\""
+            echo "::set-output name=destination::\"platform=iOS Simulator,name=iPhone 8\""
         else
             echo "::set-output name=destination::platform=macOS"
         fi
