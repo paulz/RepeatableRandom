@@ -1,10 +1,10 @@
 import XCTest
-@testable import RepeatableRandom
+import RepeatableRandom
 
 class Principal: NSObject {
     let observers: [XCTestObservation] = [
         VerifyTestOrderObserver.shared,
-        Randomizer.shared
+        TestsOrderRandomizer.shared
     ]
 
     override init() {

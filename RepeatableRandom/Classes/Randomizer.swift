@@ -1,27 +1,27 @@
 import XCTest
 import GameKit
 
-public class Randomizer: NSObject {
-    static var shared = Randomizer()
+public class TestsOrderRandomizer: NSObject {
+    public static var shared = TestsOrderRandomizer()
     var seed: UInt64 = 0
-
 }
 
 class RandomSeed: XCTestCase {
-    @objc
-    func replayingSeed() {
-        recordSeed()
-    }
-    @objc
-    func recordSeed() {
-        let attachment = XCTAttachment(string: Randomizer.shared.seed.description)
-        attachment.name = "shuffle with seed"
+    private func addSeedToArtifacts() {
+        let attachment = XCTAttachment(string: TestsOrderRandomizer.shared.seed.description)
+        attachment.name = "shuffle with seed \(TestsOrderRandomizer.shared.seed)"
         attachment.lifetime = .keepAlways
         add(attachment)
     }
+    @objc func replayingSeed() {
+        addSeedToArtifacts()
+    }
+    @objc func recordSeed() {
+        addSeedToArtifacts()
+    }
 }
 
-extension Randomizer: XCTestObservation {
+extension TestsOrderRandomizer: XCTestObservation {
     public func testSuiteWillStart(_ testSuite: XCTestSuite) {
         var source: GKLinearCongruentialRandomSource
         var replay = false
@@ -46,7 +46,7 @@ extension Randomizer: XCTestObservation {
     }
 }
 
-extension XCTestSuite {
+private extension XCTestSuite {
     var allTests: [XCTest] {
         tests.map {
             if let suite = $0 as? XCTestSuite {
