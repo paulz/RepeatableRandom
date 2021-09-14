@@ -327,19 +327,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 89C42F39DBC748F4E220C94D /* Pods-iOS-Tests.debug.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Tests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.github.paulz.iOS-Tests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.RepeatableRandom.iOS-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -348,20 +342,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8CC35400E604330B366475D5 /* Pods-iOS-Tests.release.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Tests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.github.paulz.iOS-Tests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.RepeatableRandom.iOS-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -421,6 +409,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -472,6 +461,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -480,13 +470,11 @@
 			baseConfigurationReference = BC50C934D3C4730C41A08F52 /* Pods-macOS-Tests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.RepeatableRandom-Tests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.RepeatableRandom.macOS-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
-				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -495,13 +483,11 @@
 			baseConfigurationReference = ABF7CBFB0B93A77B2DBA0D4F /* Pods-macOS-Tests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.RepeatableRandom-Tests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.RepeatableRandom.macOS-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
-				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
