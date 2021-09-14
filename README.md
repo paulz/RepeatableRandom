@@ -32,6 +32,15 @@ pod 'RepeatableRandom',
     :git => 'https://github.com/paulz/RepeatableRandom/'
 ```
 
+And add TestsOrderRandomizer.shared as a test observer:
+
+```swift
+import RepeatableRandom
+
+XCTestObservationCenter.shared
+   .addTestObserver(TestsOrderRandomizer.shared)
+```
+
 ## Author
 
 Paul Zabelin, paulz@users.noreply.github.com
