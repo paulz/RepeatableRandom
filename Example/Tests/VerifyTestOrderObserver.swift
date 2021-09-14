@@ -7,10 +7,11 @@ class VerifyTestOrderObserver: NSObject, XCTestObservation {
             assert(
                 testSuite.testNames ==
                     [
-                        "-[FirstTest testFirst]",
+                        "-[RandomSeed replayingSeed]",
                         "-[FirstTest testSecond]",
+                        "-[FirstTest testFirst]",
+                        "-[ThirdTest testThird]",
                         "-[SecondTest testSecond]",
-                        "-[ThirdTest testThird]"
                     ]
             )
         }
