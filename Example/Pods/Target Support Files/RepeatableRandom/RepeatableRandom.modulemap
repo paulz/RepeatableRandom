@@ -1,0 +1,6 @@
+framework module RepeatableRandom {
+  umbrella header "RepeatableRandom-umbrella.h"
+
+  export *
+  module * { export * }
+}

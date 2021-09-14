@@ -1,0 +1,16 @@
+PODS:
+  - RepeatableRandom (0.1.0)
+
+DEPENDENCIES:
+  - RepeatableRandom (from `../`)
+
+EXTERNAL SOURCES:
+  RepeatableRandom:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RepeatableRandom: 65d83880158619e89ee675acd3156becbe6489b0
+
+PODFILE CHECKSUM: 9955a9dd9150430f2d26aef67487193c7caa746c
+
+COCOAPODS: 1.11.0
