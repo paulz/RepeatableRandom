@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RepeatableRandom_Example' do
+  pod 'RepeatableRandom', :path => '../'
+
+  target 'RepeatableRandom_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
