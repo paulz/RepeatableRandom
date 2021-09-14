@@ -1,9 +1,9 @@
 {
   "name": "RepeatableRandom",
   "version": "0.1.0",
-  "summary": "A short description of RepeatableRandom.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Paul Zabelin/RepeatableRandom",
+  "summary": "Repeatable Random order for XCTests",
+  "description": "Execute Xcode Tests in a random order to detect interdependency of tests.\nOrder can be repeated to reproduce and debug.",
+  "homepage": "https://github.com/paulz/RepeatableRandom",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,16 @@
     "Paul Zabelin": "paulz@users.noreply.github.com"
   },
   "source": {
-    "git": "https://github.com/Paul Zabelin/RepeatableRandom.git",
+    "git": "https://github.com/paulz/RepeatableRandom.git",
     "tag": "0.1.0"
   },
+  "social_media_url": "https://twitter.com/iospaulz",
   "platforms": {
-    "osx": "10.10"
+    "osx": "10.11",
+    "ios": "9"
   },
-  "source_files": "RepeatableRandom/Classes/**/*"
+  "source_files": "RepeatableRandom/Classes/**/*",
+  "frameworks": "XCTest",
+  "swift_versions": "5.0",
+  "swift_version": "5.0"
 }
