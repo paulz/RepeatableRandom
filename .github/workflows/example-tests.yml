@@ -12,15 +12,15 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        scheme: [macOS_Tests, iOS_Tests]
+        os: [macOS, iOS]
     steps:
     - uses: actions/checkout@v2
-    - name: macOS Tests
+    - name: ${{ matrix.os }} Tests
       uses: sersoft-gmbh/xcodebuild-action@v1
       with:
         workspace: Example/RepeatableRandom.xcworkspace
-        scheme: ${{ matrix.scheme }}
-        result-bundle-path: test-results/${{ matrix.scheme }}
+        scheme: ${{ matrix.os }}_Tests
+        result-bundle-path: test-results/${{ matrix.os }}
         build-settings: -test-timeouts-enabled YES
     - name: Archive results # due to: https://github.com/actions/upload-artifact/issues/76
       if: always()
