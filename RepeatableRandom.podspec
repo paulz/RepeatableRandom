@@ -20,4 +20,10 @@ Pod::Spec.new do |s|
   s.source_files = 'RepeatableRandom/Classes/**/*'
   s.frameworks = 'XCTest'
   s.swift_versions = '5.0'
+  s.pod_target_xcconfig = {
+      # Fix Xcode warning by using deployment target set in Podfile
+      # XCTest was built for newer macOS version (10.15) than being linked (10.11)
+      'MACOSX_DEPLOYMENT_TARGET' => '$(inherited)',
+      'IPHONEOS_DEPLOYMENT_TARGET' => '$(inherited)',
+  }
 end
