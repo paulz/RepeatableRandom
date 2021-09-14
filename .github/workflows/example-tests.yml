@@ -2,7 +2,10 @@ name: Example Tests
 
 on:
   push:
-    branches: [ main ]
+    branches:
+      - main
+      - '!experiment/**'
+      - experiment/example-tests/**
   pull_request:
     branches: [ main ]
 

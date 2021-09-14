@@ -25,11 +25,7 @@
   "swift_versions": "5.0",
   "pod_target_xcconfig": {
     "MACOSX_DEPLOYMENT_TARGET": "$(inherited)",
-    "IPHONEOS_DEPLOYMENT_TARGET": "$(inherited)",
-    "ARCHS": "$(inherited)"
-  },
-  "user_target_xcconfig": {
-    "ARCHS": "$(inherited)"
+    "IPHONEOS_DEPLOYMENT_TARGET": "$(inherited)"
   },
   "swift_version": "5.0"
 }

@@ -539,7 +539,6 @@
 			baseConfigurationReference = F5400186B2736DFDBADC37EBFBE32B0A /* Pods-macOS_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -567,6 +566,74 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		263DAD1D9ABC1D8F724D255AEC54C18F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34C5ECFFED65D9C6AE19653EC8A36F34 /* RepeatableRandom-macOS.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RepeatableRandom-macOS/RepeatableRandom-macOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RepeatableRandom-macOS/RepeatableRandom-macOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/RepeatableRandom-macOS/RepeatableRandom-macOS.modulemap";
+				PRODUCT_MODULE_NAME = RepeatableRandom;
+				PRODUCT_NAME = RepeatableRandom;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		609D8DCE7E1B44E9E3EC519DFD2A7841 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3580C2E53F60C47409C40BC1B3242B49 /* RepeatableRandom-macOS.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RepeatableRandom-macOS/RepeatableRandom-macOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RepeatableRandom-macOS/RepeatableRandom-macOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/RepeatableRandom-macOS/RepeatableRandom-macOS.modulemap";
+				PRODUCT_MODULE_NAME = RepeatableRandom;
+				PRODUCT_NAME = RepeatableRandom;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -682,7 +749,6 @@
 			baseConfigurationReference = BB53DCAB84321F6F02990A61BBF14F00 /* Pods-macOS_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -813,40 +879,6 @@
 			};
 			name = Release;
 		};
-		C79973B322EA3365D07ED783E3876931 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3580C2E53F60C47409C40BC1B3242B49 /* RepeatableRandom-macOS.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/RepeatableRandom-macOS/RepeatableRandom-macOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RepeatableRandom-macOS/RepeatableRandom-macOS-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/RepeatableRandom-macOS/RepeatableRandom-macOS.modulemap";
-				PRODUCT_MODULE_NAME = RepeatableRandom;
-				PRODUCT_NAME = RepeatableRandom;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		E19416BA8FD4F85E1DE49093A492257E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FA7758912CADFC1099DA0F032494EECF /* RepeatableRandom-iOS.debug.xcconfig */;
@@ -881,40 +913,6 @@
 			};
 			name = Debug;
 		};
-		F5B28A4F4C42BC362317408BC7C3B5CD /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 34C5ECFFED65D9C6AE19653EC8A36F34 /* RepeatableRandom-macOS.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/RepeatableRandom-macOS/RepeatableRandom-macOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RepeatableRandom-macOS/RepeatableRandom-macOS-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/RepeatableRandom-macOS/RepeatableRandom-macOS.modulemap";
-				PRODUCT_MODULE_NAME = RepeatableRandom;
-				PRODUCT_NAME = RepeatableRandom;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -930,8 +928,8 @@
 		8B512ABC1562B0A82D96F1ED4022EB82 /* Build configuration list for PBXNativeTarget "RepeatableRandom-macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C79973B322EA3365D07ED783E3876931 /* Debug */,
-				F5B28A4F4C42BC362317408BC7C3B5CD /* Release */,
+				609D8DCE7E1B44E9E3EC519DFD2A7841 /* Debug */,
+				263DAD1D9ABC1D8F724D255AEC54C18F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
